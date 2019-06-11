@@ -18,8 +18,13 @@ Although template forms are easier to create, they become a challenge when you w
 ## Advantages and Disadvantages of Reactive Forms
 It's easier to write unit tests in reactive forms since all the form code and functionality is contained in the component. However, reactive forms require more coding implementation in the component.
 
+![Alt text](src/img/reactive.png)
+<img src="src/img/reactive.png">
 
-===================================================================================================================================
+![Alt text](src/img/template.png)
+<img src="src/img/template.png">
+
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
