@@ -5,22 +5,58 @@
   <mat-card-content>
     <form novalidate (ngSubmit)="onSubmit(f.value)" #f="ngForm">
       <mat-form-field>
-        <input matInput placeholder="firstname"  class="form-control"  name="firstname" ngModel required>
+        <input
+          matInput
+          placeholder="firstname"
+          class="form-control"
+          name="firstname"
+          ngModel
+          required
+        />
       </mat-form-field>
       <br />
       <mat-form-field>
-        <input matInput placeholder="lastname" class="form-control"  name="lastname" ngModel required>
+        <input
+          matInput
+          placeholder="lastname"
+          class="form-control"
+          name="lastname"
+          ngModel
+          required
+        />
       </mat-form-field>
       <br />
       <mat-form-field>
-        <input matInput placeholder="email" class="form-control"  name="email" ngModel required>
+        <input
+          matInput
+          placeholder="email"
+          class="form-control"
+          name="email"
+          ngModel
+          required
+        />
       </mat-form-field>
       <br />
       <mat-form-field>
-        <textarea rows="4" cols="50" matInput placeholder="message" class="form-control"  name="message" ngModel required></textarea>
+        <textarea
+          rows="4"
+          cols="50"
+          matInput
+          placeholder="message"
+          class="form-control"
+          name="message"
+          ngModel
+          required
+        ></textarea>
       </mat-form-field>
       <br />
-      <button id="submit" mat-raised-button type="submit" color="primary" [disabled]="f.invalid">
+      <button
+        id="submit"
+        mat-raised-button
+        type="submit"
+        color="primary"
+        [disabled]="f.invalid"
+      >
         Submit
       </button>
 

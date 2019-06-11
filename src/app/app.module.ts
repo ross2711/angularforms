@@ -5,16 +5,20 @@ import {
   MatButtonModule,
   MatCardModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule, MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule
 } from "@angular/material";
+import { MatMenuModule} from '@angular/material/menu';
 
 import { AppComponent } from "./app.component";
 import { ReactiveformsComponent } from "./reactiveforms/reactiveforms.component";
 import { TemplateformsComponent } from "./templateforms/templateforms.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { AppRoutingModule } from './app-routing.module';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
-  declarations: [AppComponent, TemplateformsComponent, ReactiveformsComponent],
+  declarations: [AppComponent, TemplateformsComponent, ReactiveformsComponent, MainNavComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -23,8 +27,15 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     MatFormFieldModule,
     FormsModule,
     MatInputModule,
+    MatMenuModule,
     //reactive form
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
