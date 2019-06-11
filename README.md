@@ -1,5 +1,27 @@
 # Angularforms
 
+## Reactive and Template-Driven Forms
+What Are Angular Reactive Forms?
+Reactive forms are also known as model-driven forms. This means that the HTML content changes depending on the code in the component.
+
+## What Are Angular Template-Driven Forms?
+Template-driven forms are driven by derivatives in the template. This means that you will see derivatives such as ngModel in the template as opposed to the code. 
+
+## Differences Between Template-Driven and Reactive Forms
+Template-driven forms use the FormsModule, while reactive forms use the ReactiveFormsModule.
+Template-driven forms are asynchronous, while reactive forms are synchronous.
+In template-driven forms, most of the interaction occurs in the template, while in reactive-driven forms, most of the interaction occurs in the component.
+
+## Advantages and Disadvantages of Template-Driven Forms
+Although template forms are easier to create, they become a challenge when you want to do unit testing, because testing requires the presence of a DOM.
+
+## Advantages and Disadvantages of Reactive Forms
+It's easier to write unit tests in reactive forms since all the form code and functionality is contained in the component. However, reactive forms require more coding implementation in the component.
+
+
+===================================================================================================================================
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
