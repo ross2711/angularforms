@@ -9,7 +9,7 @@ export class TemplateformsComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-  onSubmit(f) {
+  onSubmit(f: { value: any; }) {
     console.log(f.value);
   }
 }
